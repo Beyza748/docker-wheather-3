@@ -5,7 +5,7 @@ import { getCountry } from './services/country.js';
 
 async function loadDashboard() {
 const weather = await getWeather(41.01, 28.97); // İstanbul
-const time = await getTime('Europe/Istanbul');
+//const time = await getTime('Europe/Istanbul');
 const country = await getCountry('TR');
 
 
