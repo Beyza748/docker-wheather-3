@@ -28,8 +28,7 @@ weatherCard.innerHTML = `
 
 document.getElementById('time-card').innerHTML = `
 <h3>🕒 Yerel Saat</h3>
-<p>${time.datetime.substring(11, 19)}</p>
-<p>${time.timezone}</p>
+<p>${time.datetime.substring(11, 19)}Servis Geçici Olarak Kullanılmıyor.</p>
 `;
 
 
